@@ -1,0 +1,164 @@
+body {
+  font-size: 11pt;
+  line-height: initial;
+}
+
+table {
+  width: 96%;
+  background: #607D8B;
+  font-family: roboto;
+  border-style: none;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+th {
+  width: 400px;
+  max-width: 400px;
+  font-family: roboto;
+  text-align: center;
+}
+
+abbr {
+  text-decoration: underline;
+}
+/* Layouting */
+
+#title {
+  background-color: #455A64;
+  color: white;
+  text-align: center;
+}
+
+.indiv {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.content {
+  width: 90px;
+  max-width: 90px;
+}
+
+.content-per {
+  height: 90px;
+  max-height: 90px;
+}
+
+.content-tp {
+  width: 90px;
+  max-width: 90px;
+  height: 90px;
+  max-height: 90px;
+}
+
+.gol {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.per {
+  font-size: 4em;
+  font-weight: bold;
+}
+/* For periodic Elements Inside */
+
+.na {
+  font-size: 0.7em;
+  float: left;
+}
+
+.ma {
+  font-size: 0.7em;
+  float: right;
+}
+
+.lu {
+  font-size: 2.75em;
+  font-weight: bold;
+  text-align: right;
+  width: 97%;
+  margin-right: 5px;
+}
+
+.sp {
+  font-size: 0.9em;
+  float: left;
+}
+
+.nu {
+  font-size: 10.1pt;
+  text-align: center;
+}
+
+.rlra {
+  font-size: 12pt;
+  margin-top: 5px;
+}
+td
+{
+  box-shadow:0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12)
+}
+td[colspan], td:empty
+{
+  box-shadow:none;
+}
+.nu-desc {
+  font-size: 7pt;
+  text-align: center;
+}
+
+.kotak {
+  width: 85px;
+  height: 85px;
+}
+/* CSS for Element Category Starts */
+
+.l {
+  background: #FFEB3B;
+}
+
+.c {
+  background: #2196F3;
+}
+
+.g {
+  background: #4CAF50;
+}
+
+.b {
+  background: #F44336;
+}
+
+.h {
+  background: #9E9E9E;
+}
+
+.lan {
+  background: #E91E63;
+}
+
+.lan-b {
+  background: #F44336;
+}
+
+.akt {
+  background: #9C27B0;
+  color: #fff;
+}
+
+.akt-b {
+  background: mediumpurple;
+}
+
+.m {
+  background: brown;
+}
+
+.gm {
+  background: LightskyBlue;
+}
+
+.undef {
+  background: silver;
+}
